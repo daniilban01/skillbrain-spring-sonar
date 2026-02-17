@@ -31,7 +31,7 @@ public class PriceService {
         BigDecimal vat = amount.multiply(vatMultiplier);
         return amount.add(vat).setScale(2, RoundingMode.HALF_UP);
     }
-    
+    // jenkins_test
    // private String debugNote() { return "temporary-debug"; }
    // private String unusedToken = "12345";
 
